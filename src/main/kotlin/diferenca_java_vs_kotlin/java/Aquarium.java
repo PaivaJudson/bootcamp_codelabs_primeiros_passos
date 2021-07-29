@@ -1,4 +1,4 @@
-package java;
+package diferenca_java_vs_kotlin.java;
 
 public class Aquarium {
 
