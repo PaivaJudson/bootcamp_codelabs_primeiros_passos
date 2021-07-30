@@ -21,7 +21,8 @@ fun randomDay(): String{
 
 fun fishFood(day: String): String{
     var food: String
-    when(day){
+
+    return when(day){
         "Monday" -> food = "flakes"
         "Tuesday" -> food = "pellets"
         "Wednesday" -> food = "redworms"
@@ -31,7 +32,6 @@ fun fishFood(day: String): String{
         "Sunday" -> food = "plankton"
         else -> food = "nothing"
     }
-    return food
 }
 
 fun shouldChangeWater(day: String, temperature: Int = 22, dirty: Int = 20): Boolean {
